@@ -120,7 +120,9 @@ body {
 .city {
 	background: transparent !important;
 }
-
+.lloca {
+	color: gray;
+}
 .current {
 	position: absolute;
 	height: 10px;
