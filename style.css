@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+img {
+	pointer-events: none;
+}
+.disable-select {
+	user-select: none;
+}
+body {
+	background: #222;
+	color: rgb(106, 227, 249);
+}
+
+.card-columns-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+	gap: 0.5rem;
+}
+.card {
+	background: rgb(7, 36, 43);
+	border: 2px solid rgb(5, 60, 72);
+}
+.card-header {
+	border-bottom: 2px solid rgb(5, 60, 72);
+}
+
+.nav-item {
+	width: 100px;
+}
+.nav-link {
+	color: rgb(106, 227, 249);
+}
+.nav-link.active {
+	color: red;
+}
+.nav-link:hover {
+	color: rgb(106, 227, 0);
+}
+.nav:after {
+	content: '';
+	width: 2px;
+	height: 100%;
+	margin-left: -2px;
+	background-color: rgb(5, 60, 72);
+}
+
+.overlay {
+	position: relative;
+}
+.loca {
+	position: absolute;
+	background: black;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	display: flex;
+	font-size: 18px;
+	line-height: 25px;
+	align-content: center;
+	justify-content: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#desc {
+	max-width: 750px;
+}
+.item {
+	color: blue;
+}
+.laba-image {
+	background: url(img/laba.png);
+	position: absolute;
+	background-size: cover;
+	width: 40px;
+	height: 40px;
+	top: -28px;
+}
+.flask-image {
+	background: url(img/flask.png);
+	position: absolute;
+	background-size: cover;
+	width: 25px;
+	height: 50px;
+	top: -35px;
+	left: 12px;
+}
+.point1-image {
+	background: url(img/p1.png);
+	position: absolute;
+	background-size: cover;
+	width: 40px;
+	height: 40px;
+	top: -32px;
+}
+.point2-image {
+	background: url(img/p2.png);
+	position: absolute;
+	background-size: cover;
+	width: 40px;
+	height: 40px;
+	top: -32px;
+}
+.point3-image {
+	background: url(img/p3.png);
+	position: absolute;
+	background-size: cover;
+	width: 40px;
+	height: 40px;
+	top: -32px;
+}
+.image-bottom {
+	top: 15px;
+}
+.laba {
+	color: green;
+}
+.quest {
+	color: aquamarine;
+}
+.city {
+	background: transparent !important;
+}
+
+.current {
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	top: 20px;
+	left: 7px;
+	background-color: greenyellow;
+}

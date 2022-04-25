@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+		<title>POE левелинг</title>
+	</head>
+	<body>
+		<div class="vh-100--vw-100 p-2 d-flex --align-items-center justify-content-center">
+			<div class="card">
+				<h5 class="card-header text-center">Быстрый левелинг по актам</h5>
+				<div class="card-body p-2">
+					<div class="card">
+						<div class="card-body p-0 d-flex justify-content-center">
+							<ul class="nav d-flex flex-column" id="act_menu">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#" data-act="01">Акт 1</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" data-act="02">Акт 2</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" data-act="03">Акт 3</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" data-act="04">Акт 4</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" data-act="05">Акт 5</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" data-act="06">Акт 6</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" data-act="07">Акт 7</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" data-act="08">Акт 8</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" data-act="09">Акт 9</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" data-act="10">Акт 10</a>
+								</li>
+							</ul>
+							<div class="col">
+								<div class="overlay disable-select" id="overlay">
+									<img id="act_img" src="img/01.png" alt="" />
+									<div id="points"></div>
+								</div>
+								<div class="col p-1" id="desc">выбери локу</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
