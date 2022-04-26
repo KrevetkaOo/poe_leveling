@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
 	const desc = document.getElementById('desc')
 
 	setTimeout(_ => {
-		document.querySelector('[data-act="10"').click()
+		document.querySelector('[data-act="01"').click()
 	}, 0)
 
 	menu.addEventListener('click', async function (e) {
