@@ -236,6 +236,15 @@ function text(node, textArray) {
 }
 text(document.querySelector('.text-kadabra'), ['Быстрый левелинг по актам', 'Изи проход'])
 
+function addImageProcess(src) {
+	return new Promise((resolve, reject) => {
+		let img = new Image()
+		img.onload = resolve
+		img.onerror = reject
+		img.src = src
+	})
+}
+
 document.addEventListener('DOMContentLoaded', function (e) {
 	const menu = document.getElementById('act_menu')
 	const act_img = document.getElementById('act_img')
@@ -246,17 +255,17 @@ document.addEventListener('DOMContentLoaded', function (e) {
 		document.querySelector('[data-act="01"').click()
 	}, 0)
 
-	menu.addEventListener('click', function (e) {
+	menu.addEventListener('click', async function (e) {
 		e.preventDefault()
-		desc.innerHTML = ''
-		points.innerHTML = ''
 		if (e.target.tagName.toLowerCase() === 'a') {
 			this.querySelector('a.active').classList.remove('active')
 			e.target.classList.add('active')
 			const act = e.target.dataset.act
 			const act_data = `act_${act}`
-			act_img.src = `img/${act}.png`
-
+			act_img.src = `img/${act}.jpg`
+			await addImageProcess(`img/${act}.jpg`)
+			desc.innerHTML = ''
+			points.innerHTML = ''
 			data[act_data]?.pos.map(el => {
 				const span = createElement('span', { class: 'loca', 'data-toggle': 'tooltip', 'data-placement': 'top', style: { top: el.top + 'px', left: el.left + 'px' }, title: el.name }, el.num === 0 || el.num === undefined ? '' : el.num)
 				if (el.image) {
