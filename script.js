@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
 	menu.addEventListener('click', async function (e) {
 		e.preventDefault()
 		if (e.target.tagName.toLowerCase() === 'a') {
-			this.querySelector('a.active').classList.remove('active')
+			this.querySelector('a.active')?.classList.remove('active')
 			e.target.classList.add('active')
 			const act = e.target.dataset.act
 			const act_data = `act_${act}`
