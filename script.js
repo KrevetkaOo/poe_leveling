@@ -77,48 +77,71 @@ const data = {
 	},
 	act_05: {
 		pos: [
-			{ top: 255, left: 55, num: 0, name: '11', desc: '' },
-			{ city: true, top: 243, left: 136, num: 0, name: '11', desc: '' },
-			{ image: ['point1-image'], top: 302, left: 195, num: 1, name: '11', desc: '' },
-			{ top: 188, left: 353, num: '2/6', name: '11', desc: '' },
-			{ top: 383, left: 636, num: '3/5', name: '11', desc: '' },
-			{ top: 441, left: 582, num: 4, name: '11', desc: '' },
-			{ top: 122, left: 606, num: 7, name: '11', desc: '' },
-			{ top: 104, left: 294, num: 8, name: '11', desc: '' },
-			{ image: ['point1-image'], top: 363, left: 281, num: 0, name: '11', desc: '' }
+			{ top: 255, left: 55, num: 0, name: 'Узилище', desc: '' },
+			{ city: true, top: 243, left: 136, num: 0, name: 'Башня надзирателя', desc: '' },
+			{ image: ['point1-image'], top: 302, left: 195, num: 1, name: 'Изолятор', desc: '' },
+			{ top: 188, left: 353, num: '2/6', name: 'Площадь/Разрушенная площадь', desc: '' },
+			{ top: 383, left: 636, num: '3/5', name: 'Суды', desc: '' },
+			{ top: 441, left: 582, num: 4, name: 'Обитель Невинности', desc: '' },
+			{ top: 122, left: 606, num: 7, name: 'Костница', desc: '' },
+			{ top: 104, left: 294, num: 8, name: 'Крыша собора', desc: '' },
+			{ image: ['point1-image'], top: 363, left: 281, num: 0, name: 'Реликварий', desc: '' }
 		]
 	},
 	act_06: {
 		pos: [
-			{ top: 455, left: 146, num: 0, name: '11', desc: '' },
-			{ city: true, top: 415, left: 163, num: 0, name: '11', desc: '' },
-			{ top: 365, left: 168, num: 1, name: '11', desc: '' },
-			{ top: 392, left: 204, num: 0, name: '11', desc: '' },
-			{ top: 329, left: 199, num: 2, name: '11', desc: '' },
-			{ top: 100, left: 0, num: 4, name: '11', desc: '' },
-			{ top: 120, left: 0, num: 5, name: '11', desc: '' },
-			{ top: 140, left: 0, num: 6, name: '11', desc: '' },
-			{ top: 160, left: 0, num: 0, name: '11', desc: '' },
-			{ top: 180, left: 0, num: 0, name: '11', desc: '' },
-			{ top: 200, left: 0, num: 0, name: '11', desc: '' },
-			{ top: 220, left: 0, num: 2, name: '11', desc: '' },
-			{ top: 240, left: 0, num: 3, name: '11', desc: '' },
-			{ top: 260, left: 0, num: 4, name: '11', desc: '' },
-			{ image: ['point1-image'], top: 280, left: 0, num: 5, name: '11', desc: '' },
-			{ top: 300, left: 0, num: 6, name: '11', desc: '' }
+			{ top: 455, left: 146, num: 0, name: 'Сумрачное взморье', desc: '' },
+			{ city: true, top: 415, left: 163, num: 0, name: 'Застава Львиного глаза', desc: '' },
+			{ top: 365, left: 168, num: 1, name: 'Побережье', desc: '' },
+			{ top: 392, left: 204, num: 0, name: 'Прибрежный остров', desc: '' },
+			{ top: 329, left: 199, num: 2, name: 'Илистые низины', desc: '' },
+			{ image: ['point1-image'], top: 298, left: 150, num: 3, name: 'Крепость каруи', desc: '' },
+			{ top: 226, left: 146, num: 4, name: 'Хребет', desc: '' },
+			{ image: ['laba-image'], top: 168, left: 177, num: 5, name: 'Тюрма', desc: '' },
+			{ image: ['point1-image image-bottom'], top: 167, left: 231, num: 6, name: 'Врата заключённых', desc: '' },
+			{ top: 122, left: 240, num: 7, name: 'Западный лес', desc: '' },
+			{ top: 149, left: 321, num: 8, name: 'Пойма реки', desc: '' },
+			{ image: ['laba-image'], top: 103, left: 303, num: 0, name: 'Топь', desc: '' },
+			{ top: 167, left: 393, num: 9, name: 'Южный лес', desc: '' },
+			{ top: 212, left: 402, num: 10, name: 'Пещера злобы', desc: '' },
+			{ top: 212, left: 474, num: 11, name: 'Маяк', desc: '' },
+			{ top: 165, left: 630, num: 12, name: 'Риф Морского царя', desc: '' }
 		]
 	},
 	act_07: {
 		pos: [
-			{ top: 0, left: 0, num: 0, name: '11', desc: '' },
-			{ city: true, top: 20, left: 0, num: 0, name: '11', desc: '' },
-			{ top: 40, left: 0, num: 0, name: '11', desc: '' },
-			{ image: ['point1-image'], top: 60, left: 0, num: 2, name: '11', desc: '' },
-			{ top: 80, left: 0, num: 3, name: '11', desc: '' },
-			{ top: 100, left: 0, num: 4, name: '11', desc: '' },
-			{ image: ['point1-image'], top: 120, left: 0, num: 5, name: '11', desc: '' },
-			{ top: 140, left: 0, num: 6, name: '11', desc: '' },
-			{ top: 160, left: 0, num: 7, name: '11', desc: '' }
+			{ city: true, top: 184, left: 594, num: 0, name: 'Лагерь на мосту', desc: '' },
+			{ image: ['flask-image'], top: 198, left: 542, num: 1, name: 'Разрушенный мост', desc: '' },
+			{ top: 278, left: 515, num: 2, name: 'Перекрёсток', desc: '' },
+			{ top: 350, left: 583, num: 3, name: 'Руины осквернённой святыни', desc: '' },
+			{ image: ['laba-image'], top: 360, left: 652, num: 4, name: 'Склеп', desc: '' },
+			{ image: ['laba-image'], top: 199, left: 436, num: 5, name: 'Обитель грехов - уровень 1/2', desc: '' },
+			{ top: 168, left: 378, num: 6, name: 'Святилище Малигаро', desc: '' },
+			{ top: 300, left: 425, num: 7, name: 'Берлога', desc: '' },
+			{ image: ['point1-image'], top: 400, left: 423, num: 8, name: 'Пепельные поля', desc: '' },
+			{ top: 265, left: 140, num: 9, name: 'Северный лес', desc: '' },
+			{ image: ['point1-image'], top: 298, left: 73, num: 10, name: 'Чащоба', desc: '' },
+			{ image: ['point1-image'], top: 170, left: 172, num: 11, name: 'Перешеек', desc: '' },
+			{ top: 133, left: 126, num: 12, name: 'Город ваал', desc: '' },
+			{ top: 113, left: 72, num: 13, name: 'Храм Разложения', desc: '' }
+		]
+	},
+	act_08: {
+		pos: [
+			{ top: 374, left: 601, num: 0, name: 'Бастион сарна', desc: '' },
+			{ city: true, top: 320, left: 402, num: 0, name: 'Лагерь Сарна', desc: '' },
+			{ top: 249, left: 402, num: 1, name: 'Отравленные каналы', desc: '' },
+			{ image: ['point1-image'], top: 231, left: 495, num: 2, name: 'Пристань', desc: '' },
+			{ image: ['point1-image'], top: 214, left: 583, num: 3, name: 'Зерновые ворота', desc: '' },
+			{ top: 135, left: 690, num: 4, name: 'Имперские поля', desc: '' },
+			{ top: 70, left: 473, num: 5, name: 'Храм Солярис - уровень 1/2', desc: '' },
+			{ top: 114, left: 417, num: 0, name: 'упс', desc: '' },
+			{ top: 265, left: 244, num: 6, name: 'Роскошная набережная', desc: '' },
+			{ image: ['laba-image'], top: 198, left: 249, num: 7, name: 'Купальни', desc: '' },
+			{ image: ['point1-image'], top: 197, left: 180, num: 0, name: 'Висячие сады', desc: '' },
+			{ top: 148, left: 252, num: 8, name: 'Площадь Лунарис', desc: '' },
+			{ top: 140, left: 155, num: 9, name: 'Храм Лунарис', desc: '' },
+			{ top: 163, left: 351, num: 10, name: 'Портовый мост', desc: '' }
 		]
 	}
 }
@@ -151,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
 	const desc = document.getElementById('desc')
 
 	setTimeout(_ => {
-		document.querySelector('[data-act="06"').click()
+		document.querySelector('[data-act="01"').click()
 	}, 0)
 
 	menu.addEventListener('click', function (e) {
