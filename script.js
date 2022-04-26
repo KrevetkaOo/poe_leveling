@@ -143,6 +143,36 @@ const data = {
 			{ top: 140, left: 155, num: 9, name: 'Храм Лунарис', desc: '' },
 			{ top: 163, left: 351, num: 10, name: 'Портовый мост', desc: '' }
 		]
+	},
+	act_09: {
+		pos: [
+			{ top: 444, left: 314, num: 0, name: 'Кровавый акведук', desc: '' },
+			{ city: true, top: 371, left: 214, num: 0, name: 'Македы', desc: '' },
+			{ top: 283, left: 401, num: 1, name: 'Спуск', desc: '' },
+			{ top: 446, left: 599, num: 2, name: 'Пустыня Вастири', desc: '' },
+			{ image: ['point1-image'], top: 289, left: 711, num: 0, name: 'Оазис', desc: '' },
+			{ image: ['point2-image'], top: 245, left: 563, num: 3, name: 'Предгорье', desc: '' },
+			{ top: 162, left: 518, num: 4, name: 'Кипящее озеро', desc: '' },
+			{ image: ['laba-image'], top: 160, left: 429, num: 5, name: 'Тоннель', desc: '' },
+			{ image: ['point1-image image-bottom'], top: 134, left: 325, num: 6, name: 'Каменоломня', desc: '' },
+			{ top: 90, left: 343, num: 7, name: 'Фабрика', desc: '' },
+			{ top: 112, left: 133, num: 8, name: 'Брюхо Зверя', desc: '' },
+			{ top: 164, left: 62, num: 9, name: 'Гниющее нутро', desc: '' }
+		]
+	},
+	act_10: {
+		pos: [
+			{ city: true, top: 41, left: 224, num: 0, name: 'Доки Ориата', desc: '' },
+			{ top: 105, left: 294, num: 1, name: 'Крысха собора', desc: '' },
+			{ top: 189, left: 353, num: 2, name: 'Разорённая площадь', desc: '' },
+			{ image: ['laba-image', 'point2-image image-bottom'], top: 123, left: 606, num: 0, name: 'Костница', desc: '' },
+			{ top: 188, left: 564, num: 5, name: 'Каналы', desc: '' },
+			{ top: 181, left: 663, num: 6, name: 'Кормушка', desc: '' },
+			{ top: 384, left: 636, num: 3, name: 'Подожжонные суды', desc: '' },
+			{ top: 442, left: 582, num: 4, name: 'Осквернённая обитель', desc: '' },
+			{ top: 364, left: 281, num: 0, name: 'Реликварий', desc: '' },
+			{ image: ['point1-image'], top: 303, left: 195, num: 0, name: 'Изолятор', desc: '' }
+		]
 	}
 }
 
@@ -252,7 +282,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
 	const desc = document.getElementById('desc')
 
 	setTimeout(_ => {
-		document.querySelector('[data-act="01"').click()
+		document.querySelector('[data-act="10"').click()
 	}, 0)
 
 	menu.addEventListener('click', async function (e) {
