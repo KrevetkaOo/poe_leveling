@@ -278,8 +278,8 @@ function addImageProcess(src) {
 document.addEventListener('DOMContentLoaded', function (e) {
 	const menu = document.getElementById('act_menu')
 	const act_img = document.getElementById('act_img')
-	const points = document.getElementById('points')
 	const desc = document.getElementById('desc')
+	const points = document.getElementById('points')
 
 	setTimeout(_ => {
 		document.querySelector('[data-act="01"').click()

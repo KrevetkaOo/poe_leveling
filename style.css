@@ -47,6 +47,7 @@ body {
 .overlay {
 	position: relative;
 }
+
 .loca {
 	position: absolute;
 	background: black;
@@ -61,12 +62,15 @@ body {
 	justify-content: center;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
 #desc {
 	max-width: 750px;
 }
+
 .item {
 	color: blue;
 }
+
 .laba-image {
 	background: url(img/laba.png);
 	position: absolute;
@@ -75,6 +79,7 @@ body {
 	height: 40px;
 	top: -28px;
 }
+
 .flask-image {
 	background: url(img/flask.png);
 	position: absolute;
@@ -84,6 +89,7 @@ body {
 	top: -35px;
 	left: 12px;
 }
+
 .point1-image {
 	background: url(img/p1.png);
 	position: absolute;
@@ -92,6 +98,7 @@ body {
 	height: 40px;
 	top: -32px;
 }
+
 .point2-image {
 	background: url(img/p2.png);
 	position: absolute;
@@ -100,6 +107,7 @@ body {
 	height: 40px;
 	top: -32px;
 }
+
 .point3-image {
 	background: url(img/p3.png);
 	position: absolute;
@@ -108,21 +116,27 @@ body {
 	height: 40px;
 	top: -32px;
 }
+
 .image-bottom {
 	top: 15px;
 }
+
 .laba {
 	color: green;
 }
+
 .quest {
 	color: aquamarine;
 }
+
 .city {
 	background: transparent !important;
 }
+
 .lloca {
 	color: gray;
 }
+
 .current {
 	position: absolute;
 	height: 10px;

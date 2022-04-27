@@ -1,3 +1,3 @@
 # прохождение сюжетки
 
-https://krevetkaoo.github.io/poe_leveling/
+[Перейти на сайт](https://krevetkaoo.github.io/poe_leveling)
