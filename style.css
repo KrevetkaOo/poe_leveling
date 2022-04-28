@@ -146,3 +146,7 @@ body {
 	left: 7px;
 	background-color: greenyellow;
 }
+.text-kadabra {
+	height: 42px;
+	overflow: hidden;
+}
